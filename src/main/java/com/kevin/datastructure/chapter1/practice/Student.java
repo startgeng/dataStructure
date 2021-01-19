@@ -30,4 +30,11 @@ public class Student {
         Student another = (Student)student;
         return this.name.toLowerCase().equals(another.name.toLowerCase());
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }
